@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="logo" src="image/logo.png" alt="logo">
+            <nav>
+                <ul id="menu-list">
+                    <li class="nav-li"><a class="nav-link">Consoles</a></li>
+                    <li class="nav-li"><a class="nav-link">Acessórios</a></li>
+                    <li class="nav-li"><a class="nav-link">Controles</a></li>
+                    <li class="nav-li"><a class="nav-link">Outros</a></li>
+                </ul>
+            </nav>
+            <img src="image/menu.png" alt="botão-menu" class="menu-icon" onclick="showMenu()" >
+        </div>
+
+
+        <div class="row">
+            <div class="column-1">
+                <h2>PS5 Dualshok</h2>
+                <h3>Wireless Controller for PlayStation</h3>
+                <p>Controle Original</p>
+                <h4>R$ 222,50</h4>
+                <button class="buy">Comprar agora <img src="image/arrow.png"></button>
+            </div>
+
+            <div class="column-2">
+                <img class="controller" src="image/controller.png" alt="controle">
+                <div class="color-box"></div>
+                <button class="add-cart">
+                    <img src="image/add.png" alt="adicionar-ao-carrinho">
+                </button>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <img src="image/fb.png">
+            <img src="image/tw.png">
+            <img src="image/ig.png">
+        </div>
+
+    </div>
+
+    <div id="box">
+
+    </div>
+
+</body>
+
+<script src= "script.js"> </script>
+
+</html>
