@@ -24,7 +24,8 @@
                     <li class="nav-li"><a class="nav-link">Outros</a></li>
                 </ul>
             </nav>
-            <img src="image/menu.png" alt="botão-menu" class="menu-icon" onclick="showMenu()" >
+            <img src="image/menu.png" alt="botão-menu" class="menu-icon" onclick="showMenu()">
+            
         </div>
 
 
@@ -58,8 +59,22 @@
 
     </div>
 
+    
+    <script> 
+
+    const manuList = document.getElementById("menu-list")
+menuList.style.maxHeight = "0px"
+
+function showMenu(){
+    if(menuList.style.maxHeight == "0px"){
+        menuList.style.maxHeight = "120px"
+    } else {
+        menuList.style.maxHeigh = "0px"
+   }
+}
+</script>
+
 </body>
 
-<script src= "script.js"> </script>
 
 </html>
