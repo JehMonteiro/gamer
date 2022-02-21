@@ -1,6 +1,6 @@
-# Gamer
+# Gamer 🎮
  
-Page de venda controle do PlayStation 🎮<br>
+Page de venda controle do PlayStation <br>
 
 <b>Tecnologias utilizadas:</b><br>
 => HTML<br> 
